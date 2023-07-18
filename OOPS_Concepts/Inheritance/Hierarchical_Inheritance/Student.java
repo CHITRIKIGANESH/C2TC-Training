@@ -12,30 +12,6 @@ public class Student extends Person{
         this.branch = branch;
     }
 
-    public int getStd_id() {
-        return std_id;
-    }
-
-    public void setStd_id(int std_id) {
-        this.std_id = std_id;
-    }
-
-    public String getCollege_name() {
-        return college_name;
-    }
-
-    public void setCollege_name(String college_name) {
-        this.college_name = college_name;
-    }
-
-    public String getBranch() {
-        return branch;
-    }
-
-    public void setBranch(String branch) {
-        this.branch = branch;
-    }
-
     @Override
     public String toString() {
         return "Student{" +

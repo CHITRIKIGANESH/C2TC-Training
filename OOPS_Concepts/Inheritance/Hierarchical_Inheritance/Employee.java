@@ -16,38 +16,6 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
-    public int getEmp_id() {
-        return emp_id;
-    }
-
-    public void setEmp_id(int emp_id) {
-        this.emp_id = emp_id;
-    }
-
-    public String getCompany_name() {
-        return company_name;
-    }
-
-    public void setCompany_name(String company_name) {
-        this.company_name = company_name;
-    }
-
-    public String getDesignation() {
-        return designation;
-    }
-
-    public void setDesignation(String designation) {
-        this.designation = designation;
-    }
-
-    public float getSalary() {
-        return salary;
-    }
-
-    public void setSalary(float salary) {
-        this.salary = salary;
-    }
-
     @Override
     public String toString() {
         return "Employee{" +
