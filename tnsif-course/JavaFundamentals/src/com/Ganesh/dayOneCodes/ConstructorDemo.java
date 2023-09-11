@@ -23,7 +23,7 @@ public class ConstructorDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ConstructorDemo cd = new ConstructorDemo();
-		ConstructorDemo cd1 = new ConstructorDemo("dilip", 24);
+		ConstructorDemo cd1 = new ConstructorDemo("Ganesh", 24);
 		System.out.println(cd);
 		System.out.println(cd1);
 	}
